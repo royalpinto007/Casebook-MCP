@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "casebook-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-25",
+  "observability": {
+    "enabled": true
+  }
+}
