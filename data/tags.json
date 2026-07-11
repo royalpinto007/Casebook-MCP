@@ -1,0 +1,14 @@
+[
+  { "slug": "prompt-injection", "label": "prompt-injection", "description": "Untrusted content was interpreted as instructions by the agent." },
+  { "slug": "expensive-mistake", "label": "expensive-mistake", "description": "The agent's actions resulted in significant unexpected financial costs." },
+  { "slug": "security-fail", "label": "security-fail", "description": "The agent's behavior created or exploited a security vulnerability." },
+  { "slug": "infinite-loop", "label": "infinite-loop", "description": "The agent entered a repeating cycle it could not exit on its own." },
+  { "slug": "hallucination", "label": "hallucination", "description": "The agent asserted false information as fact and acted on it." },
+  { "slug": "stale-data", "label": "stale-data", "description": "The agent relied on outdated data as if it were current." },
+  { "slug": "permission-escalation", "label": "permission-escalation", "description": "The agent gained or granted itself capabilities beyond its intended scope." },
+  { "slug": "code-disaster", "label": "code-disaster", "description": "The agent produced, committed, or deployed broken, destructive, or insecure code." },
+  { "slug": "deleted-data", "label": "deleted-data", "description": "The agent permanently deleted files, database records, or storage objects." },
+  { "slug": "data-exfiltration", "label": "data-exfiltration", "description": "The agent transmitted sensitive data to external or unintended destinations." },
+  { "slug": "compliance-violation", "label": "compliance-violation", "description": "The agent's actions violated legal, regulatory, or policy requirements." },
+  { "slug": "silent-failure", "label": "silent-failure", "description": "The agent failed without surfacing the failure to any human." }
+]
